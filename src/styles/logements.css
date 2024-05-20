@@ -1,0 +1,23 @@
+.logements {
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.logements-card {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+}
+
+.logements-card img {
+  width: 100%;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}/*# sourceMappingURL=logements.css.map */
