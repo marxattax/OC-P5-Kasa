@@ -1,0 +1,11 @@
+.about img {
+  height: 223px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+
+.valeurs {
+  width: 80%;
+}/*# sourceMappingURL=about.css.map */

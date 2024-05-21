@@ -1,4 +1,3 @@
-import Header from '../../components/Header'
 import Logements from '../../components/Logements'
 import '../../styles/App.css'
 

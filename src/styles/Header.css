@@ -1,5 +1,5 @@
 .header {
-  margin: 45px 100px;
+  margin-bottom: 45px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
