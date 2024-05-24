@@ -1,8 +1,9 @@
 import { logements } from '../../datas/logements.js'
-import Depliant from '../../components/Depliant/index.jsx'
+import User from '../../components/User/'
+import Depliant from '../../components/Depliant/'
 import Tags from '../../components/Tags/index.js'
-import Carousel from '../../components/Carousel/index.jsx'
-import Rating from '../../components/Rating/index.js'
+import Carousel from '../../components/Carousel/'
+import Rating from '../../components/Rating/'
 import '../../styles/logement.css'
 
 function Logement(props) {
@@ -19,13 +20,14 @@ function Logement(props) {
                 <span className='card-title'>{logement.title}</span>
                 <span className='card-location'>{logement.location}</span>
             </div>
-            <div className='card-user'>
-                <span>{logement.host.name}</span>
-                <img src={logement.host.picture} alt={logement.host.name} />
+            <div>
+                <User className="card-user" target={logement.host} />
             </div>
         </div>
         <div className='card-tags-and-rating'>
-            <Tags array={logement.tags} />
+            <div className='card-tags'>
+                <Tags array={logement.tags} />
+            </div>
             <div className='card-rating'>
                 <Rating rating={logement.rating} />
             </div>

@@ -32,12 +32,13 @@
 }
 
 .card-tags-and-rating {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 25px;
 }
 
-.card-tags {
+.card-tag {
   margin: 15px;
   padding: 10px;
   border-radius: 25px;

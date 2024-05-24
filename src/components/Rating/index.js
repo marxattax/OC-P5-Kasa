@@ -11,7 +11,7 @@ function Rating(props) {
     for(const star of stars) {
         i++
         if(i<=rating) {
-        star.style.color = "red"
+        star.style.color = "var(--main-bg-color)"
         }
     }
 }
