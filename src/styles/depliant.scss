@@ -1,0 +1,17 @@
+.depliant {
+    color: var(--bg-color-text);
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+
+.depliant-title {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.depliant-content {
+    display: none;
+    padding: 15px;
+}

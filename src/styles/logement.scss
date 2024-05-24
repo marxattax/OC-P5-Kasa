@@ -1,0 +1,67 @@
+.card-logement {
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-encart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-title-and-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 36px;
+    color: var(--main-bg-color);
+}
+
+.card-user {
+    display: flex;
+    align-items: center;
+}
+
+.card-user img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 64px;
+}
+
+.card-tags-and-rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:25px;
+}
+
+.card-tags {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: var(--main-bg-color);
+    color: var(--bg-color-text);
+}
+
+.card-rating {
+    text-align: right;
+}
+
+.card-description-and-equipments {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin-top: 25px;
+}
+
+.card-equipments {
+    display:flex;
+    flex-direction: column;
+}
+
+.fa-star {
+    color: grey;
+    padding: 5px;
+}

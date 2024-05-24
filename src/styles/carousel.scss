@@ -1,0 +1,40 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.prev-img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    font-size:80px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.next-img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size:80px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.count-img {
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    align-items: center;
+    border-radius: 25px;
+}

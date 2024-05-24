@@ -1,9 +1,8 @@
-import Logements from '../../components/Logements'
+import Logements from '../Logements'
 import '../../styles/App.css'
 
 function App() {
-  return <div>
-  <Logements /></div>
+  return <Logements />
 }
 
 export default App

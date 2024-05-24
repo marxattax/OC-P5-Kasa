@@ -1,4 +1,3 @@
-import { Outlet, Link } from 'react-router'
 import mountain from "../../assets/mountain.png"
 import "../../styles/about.css"
 
