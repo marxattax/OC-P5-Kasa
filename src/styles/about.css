@@ -1,11 +1,9 @@
-.about img {
-  height: 223px;
+.valeurs {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 25px;
 }
 
-.valeurs {
+.valeurs .depliant {
   width: 80%;
+  margin: auto;
+  margin-top: 25px;
 }/*# sourceMappingURL=about.css.map */

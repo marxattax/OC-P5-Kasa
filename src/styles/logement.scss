@@ -4,6 +4,7 @@
 }
 
 .card-encart {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,6 +29,7 @@
     border-radius: 50%;
     object-fit: cover;
     height: 64px;
+    margin-left: 5px;
 }
 
 .card-tags-and-rating {
@@ -38,8 +40,8 @@
 }
 
 .card-tag {
-    margin: 15px;
-    padding: 10px;
+    margin-right: 15px;
+    padding: 10px 20px;
     border-radius: 25px;
     background-color: var(--main-bg-color);
     color: var(--bg-color-text);

@@ -9,7 +9,7 @@ import '../../styles/logement.css'
 function Logement(props) {
     const id = props.id
     for(var i=0; i<logements.length; i++) {
-        while (id == logements[i].id) {
+        while (id === logements[i].id) {
             const logement = logements[i]
 
     return <div className='logement'>

@@ -1,4 +1,4 @@
-.logements {
+.logements-liste {
   display: grid;
   grid-template-columns: repeat(3, 30%);
   justify-content: center;
@@ -8,6 +8,7 @@
   padding: 50px 55px;
   border-radius: 25px;
   background-color: var(--bg-color);
+  margin-top: 30px;
 }
 
 .logements a {

@@ -2,6 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Index from './pages/Index'
+import Error from './pages/Error'
 import Header from './components/Header/index.jsx'
 import Footer from './components/Footer/index.jsx'
 import About from './pages/About/index.jsx'
@@ -17,6 +18,7 @@ root.render(
     <Router>
       <Header />
         <Routes>
+          <Route path="*" element={<Error />} />
           <Route path="/" element={<Index />} />
           <Route path="/About" element={<About />} />
           {logements.map((logement) => (
