@@ -16,8 +16,7 @@
 .depliant-content {
     background-color: #F6F6F6;
     color: var(--main-color);
-    height: 0;
-    opacity: 0;
+    display: none;
 }
 
 .depliant-arrow {

@@ -9,16 +9,12 @@ function Click() {
   const depliantArrow = depliant.querySelector(".depliant-arrow")
 
     depliantTitle.onclick = function() {
-      if(depliantContent.style.height === "100%") {
-          depliantContent.style.height = "0"
-          depliantContent.style.opacity = "0"
-          depliantContent.style.padding = "0"
+      if(depliantContent.style.display === "block") {
+          depliantContent.style.display = "none"
           depliantArrow.style = "transform:rotate(45deg);transition:300ms linear;"
       }
       else {
-          depliantContent.style.height = "100%"
-          depliantContent.style.opacity = "1"
-          depliantContent.style.padding = "15px"
+          depliantContent.style.display = "none"
           depliantArrow.style = "top: 17px;transform:rotate(-135deg);transition:300ms linear;"
       }
     }
