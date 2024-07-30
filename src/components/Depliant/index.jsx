@@ -9,13 +9,15 @@ function Click() {
   const depliantArrow = depliant.querySelector(".depliant-arrow")
 
     depliantTitle.onclick = function() {
-      if(depliantContent.style.display === "block") {
-          depliantContent.style.display = "none"
+      if(depliantContent.style.visibility === "visible") {
+          depliantContent.style = "visibility: hidden; height:0; transform: translateY(-30%); transition: all 300ms linear;"
           depliantArrow.style = "transform:rotate(45deg);transition:300ms linear;"
+          depliantTitle.style = "border-radius: 10px;"
       }
       else {
-          depliantContent.style.display = "none"
+          depliantContent.style = "visibility: visible; height: 100%; transform: translateY(0); transition: all 300ms linear;"
           depliantArrow.style = "top: 17px;transform:rotate(-135deg);transition:300ms linear;"
+          depliantTitle.style = "border-radius: 10px 10px 0 0"
       }
     }
   }
