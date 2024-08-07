@@ -1,7 +1,7 @@
 import Banner from '../../components/Banner'
 import Depliant from '../../components/Depliant'
 import mountain from "../../assets/mountain.png"
-import "../../styles/about.css"
+import "./about.css"
 
 function About () {
     return <div className='about'>

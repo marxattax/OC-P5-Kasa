@@ -1,5 +1,5 @@
 import Logements from '../Logements'
-import '../../styles/App.css'
+import './App.css'
 
 function App() {
   return <Logements />

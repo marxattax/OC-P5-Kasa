@@ -1,4 +1,4 @@
-import '../../styles/depliant.css'
+import './depliant.css'
 
 
 function Click() {

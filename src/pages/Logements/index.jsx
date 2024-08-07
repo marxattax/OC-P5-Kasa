@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { logements } from '../../datas/logements.js'
 import Banner from '../../components/Banner'
 import falaise from "../../assets/falaise.png"
-import '../../styles/logements.css'
+import './logements.css'
 
 function Logements() {
     return <div className='logements'>

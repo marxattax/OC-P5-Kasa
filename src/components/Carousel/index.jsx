@@ -1,4 +1,4 @@
-import '../../styles/carousel.css'
+import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight} from '@fortawesome/free-solid-svg-icons'
 import { faChevronLeft} from '@fortawesome/free-solid-svg-icons'

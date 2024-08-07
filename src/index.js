@@ -8,7 +8,7 @@ import Footer from './components/Footer/index.jsx'
 import About from './pages/About/index.jsx'
 import Logement from './pages/Logement/index.jsx'
 import { logements } from './datas/logements'
-import './styles/index.css'
+import './index.css'
 
 const container = document.getElementById('root')
 const root = createRoot(container)

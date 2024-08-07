@@ -4,7 +4,7 @@ import Depliant from '../../components/Depliant/'
 import Tags from '../../components/Tags/index.js'
 import Carousel from '../../components/Carousel/'
 import Rating from '../../components/Rating/'
-import '../../styles/logement.css'
+import './logement.css'
 
 function Logement(props) {
     const id = props.id

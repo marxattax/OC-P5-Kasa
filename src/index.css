@@ -14,7 +14,7 @@ body {
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat-VariableFont_wght"),
-    url("../fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+    url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
 a {
